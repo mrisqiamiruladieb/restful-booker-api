@@ -1,0 +1,36 @@
+{
+  "name": "restful-booker-api",
+  "version": "1.0.0",
+  "description": "mocha chai restful-booker-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "post create token": "mocha test/api/postCreateToken.js",
+    "get booking ids": "mocha test/api/getBookingIds.js",
+    "get booking": "mocha test/api/getBooking.js",
+    "post create booking": "mocha test/api/postCreateBooking.js",
+    "put update booking": "mocha test/api/putUpdateBooking.js",
+    "patch update booking": "mocha test/api/patchUpdateBooking.js",
+    "delete booking": "mocha test/api/deleteBooking.js",
+    "get health check": "mocha test/api/getHealthCheck.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrisqiamiruladieb/restful-booker-api.git"
+  },
+  "author": "adieb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrisqiamiruladieb/restful-booker-api/issues"
+  },
+  "homepage": "https://github.com/mrisqiamiruladieb/restful-booker-api#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5"
+  }
+}
